@@ -1,0 +1,3 @@
+# Incorrect Handling of Falsy Values in JavaScript
+
+This repository demonstrates a common JavaScript bug involving the incorrect handling of falsy values. The `foo` function is designed to multiply two numbers, but it only explicitly checks for `0`. This leads to incorrect results when other falsy values are passed (e.g., `null`, `undefined`, `false`). The solution demonstrates how to correctly handle these cases using loose equality (`==`) or explicit checks for falsy values.
